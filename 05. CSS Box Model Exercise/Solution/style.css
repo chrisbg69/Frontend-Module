@@ -99,8 +99,7 @@ a {
     background-size: cover;
     padding: 12rem 0;
     color: #fff;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .main-image h1 {
@@ -132,8 +131,7 @@ a {
     margin: 0 auto;
 }
 
-.site-info button {
-    align-content: center;
+.site-info button {    
     background: #fff;
     color: #FF7F50;
     padding: 0.6rem 0.8rem;
@@ -143,8 +141,7 @@ a {
     border: none;
     cursor: pointer;
     border: 2px solid #fff;
-    outline: none;
-    
+    outline: none;    
 }
 
 .site-info button:hover {
@@ -236,11 +233,9 @@ a {
 }
 
 .site-footer li:nth-child(2) > a::after {
-    content: '\f09b';
-    
+    content: '\f09b';    
 }
 
 .site-footer li:nth-child(3) > a::after {
-    content: '\f099';
-    
+    content: '\f099';    
 }
