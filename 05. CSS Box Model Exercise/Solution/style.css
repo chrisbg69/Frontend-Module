@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'PT sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    padding-bottom: 1em;
+}
+
+h1 {font-size: 2.4rem;}
+h2 {font-size: 2.0rem;}
+h3 {font-size: 1.8rem;}
+h4 {font-size: 1.6rem;}
+h5 {font-size: 1.4rem;}
+h6 {font-size: 1.2rem;}
+
+p, ul, ol {
+    padding-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-header {
+    background: #F1F5F8;
+    padding: 0.3rem 0.8rem;
+}
+
+.site-header nav {
+    display: inline-block;
+}
+
+.site-header ul li {
+    display: inline-block;
+    text-align: right;
+    background: #FF7F50;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.site-header ul li:not(:last-child) {
+    margin-right: 0.8rem;
+}
+
+.site-header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-header ul li a::before {
+    font-family: 'Font Awesome 5 free';
+    content: '\f015';
+    display: inline-block;
+    font-weight: 900;
+    padding-right: 0.3rem;
+}
+
+.site-header ul li:nth-child(2) > a::before {
+    content: '\f500';
+}
+
+.site-header ul li:nth-child(3) > a::before {
+    content: '\f2b9';
+}
+
+.site-header ul li:nth-child(4) > a::before {
+    content: '\f781';
+}
+
+.site-header ul li:nth-child(5) > a::before {
+    content: '\f2bb';
+}
+
+.header-title {
+    display: inline-block;
+    font-size: 30px;
+    color: #FF7F50;
+    font-family: 'Pacifico', serif;
+    width: 750px;
+}
+
+.main-image {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('/Requirements-and-Resources/img/brooke-lark-210780-unsplash\ \(1\).jpg');
+    background-size: cover;
+    padding: 12rem 0;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.main-image h1 {
+    letter-spacing: 2px;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: 2px 2px 2px rgba(38, 16, 10, 0.81)
+}
+
+.main-image p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.site-info {
+    
+    background: #FF7F50;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.site-info h3 {
+    text-transform: uppercase;
+}
+
+.site-info p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.site-info button {
+    align-content: center;
+    background: #fff;
+    color: #FF7F50;
+    padding: 0.6rem 0.8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    outline: none;
+    
+}
+
+.site-info button:hover {
+    background: #FF7F50;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.site-works {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.site-works ul li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.site-works ul li:not(:last-child) {
+    margin-right: 1.2rem;
+}
+
+.site-works li img {
+ width: 50px;
+ height: auto;
+ padding-bottom: 0.3rem;
+}
+
+.gallery {
+    text-align: center;
+    background: rgb(255, 127, 80, 0.2);
+    padding: 2.5rem 0;
+}
+
+.gallery li {
+    display: inline-block;
+    width: 350px;
+    border: 4px solid #000000;
+    padding: 1rem;
+    background: #fff;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}
+
+.gallery li:not(:nth-child(3n)) {
+    margin-right: 1rem;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site-footer {
+    background: #FF7F50;
+    color: #fff;
+    text-align: center;
+}
+
+.site-footer ul {
+    display: inline-block;
+}
+
+.site-footer p {
+    display: inline-block;
+    padding-right: 5rem;
+    padding-top: 1rem;
+}
+
+.site-footer li {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.site-footer li a::after {
+    display: block;
+    content: '\f09a';
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+    color: #fff;    
+}
+
+.site-footer li:nth-child(2) > a::after {
+    content: '\f09b';
+    
+}
+
+.site-footer li:nth-child(3) > a::after {
+    content: '\f099';
+    
+}
