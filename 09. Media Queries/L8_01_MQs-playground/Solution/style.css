@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width: 600px) {
+    .mq-width > span::after {
+        content: 'The page width is below 600px.';
+        color: green;        
+    }
+}
+
+@media (max-height: 600px) {
+
+    .mq-height > span::after {
+        content: 'The page height is below 600px';
+        color: green;
+    }
+}
+
+@media (max-aspect-ratio: 8/5) {
+    .mq-ar > span::after {
+        content: 'Aspect ratio is larger then 8/5';
+        color: green;
+    }
+}
